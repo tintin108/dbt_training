@@ -1,0 +1,17 @@
+
+snowflake:
+  target: main
+  outputs:
+    main:
+      type: snowflake
+      account: UGB06408
+      threads: 5
+      client_session_keep_alive: false
+      authenticator: externalbrowser
+
+      # Your Snowflake username
+      user: ranaamahveen@gmail.com
+      role: ACCOUNTADMIN
+      database: SNOWFLAKE
+      schema: ACCOUNT_USAGE
+      warehouse: COMPUTE_WH
