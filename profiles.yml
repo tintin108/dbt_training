@@ -10,7 +10,7 @@ snowflake:
       authenticator: externalbrowser
 
       # Your Snowflake username
-      user: ranaamahveen@gmail.com
+      user: ""
       role: ACCOUNTADMIN
       database: SNOWFLAKE
       schema: ACCOUNT_USAGE
