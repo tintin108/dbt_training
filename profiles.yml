@@ -4,13 +4,14 @@ snowflake:
   outputs:
     main:
       type: snowflake
-      account: UGB06408
+      account: {snowflake_account}
       threads: 5
       client_session_keep_alive: false
-      authenticator: externalbrowser
 
       # Your Snowflake username
-      user: ""
+      user: "{snowflake_user_name}"
+      password: "{snowflake_password}"
+      authenticator: username_password_mfa
       role: ACCOUNTADMIN
       database: SNOWFLAKE
       schema: ACCOUNT_USAGE
