@@ -24,6 +24,7 @@ Try running the following commands:
 - checkout this repository
 - run pip `install -r requirements.txt` in terminal from root folder
 - Edit [profiles.yml](./profiles.yml) with your credentials
+- run `dbt compile`
 
 
 
